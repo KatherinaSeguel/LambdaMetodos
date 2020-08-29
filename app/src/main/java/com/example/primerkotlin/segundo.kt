@@ -51,6 +51,15 @@ fun main(){
 
     println(sum(2,3))
     println(multiplicar(4,5))
+    imprimirvariosparametros("hola","estoy imprimienro","varios","parametros","a la vez separados por ,")
+    imprimirtodoconPrefix("hola", "conprefix",prefix = "SAludos")//se repite con cada elemento
+
+
+    val nombre="kathy"
+    nombre.saludo() //le añado un metodo a la clase String
+    nombre.despedida() // funciones de extención this
+   "algo".imprime()//funciones de extensión this
+
 
 }//termina el main
 
@@ -91,4 +100,27 @@ fun sum(x:Int,y:Int):Int{
 
 fun multiplicar (num:Int,num2:Int):Int{
     return num*num2
+}
+
+fun imprimirvariosparametros(vararg mensaje:String){ //varios argumentos a la vez
+    for(m in mensaje) println(m)
+}
+
+fun imprimirtodoconPrefix(vararg message:String,prefix:String){
+    for (elemento in message) println(prefix+elemento)
+
+}
+
+//función de extención
+
+fun String.saludo(){
+    println("saludo")
+}
+
+fun String.despedida(){
+    println("$this + Que tal")
+}
+
+fun String.imprime(){
+    println(this)
 }
