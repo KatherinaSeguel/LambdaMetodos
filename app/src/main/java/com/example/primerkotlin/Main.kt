@@ -24,5 +24,5 @@ fun main(){
     val concatenado33 ="El valor de la palabra 01 es : ${palabra01.trim()}"//trim saca los espacios en blanco de inio y final
     println(concatenado33)
 
-   //replace reemplaza
+   //replace para reemplaza
 }
