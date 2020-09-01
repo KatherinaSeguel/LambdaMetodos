@@ -13,16 +13,16 @@ fun main(){
 
     //no puedo repetir los nombres de las variables
 
-    val palabra01 ="Hola que tal"
-    val number =10
-    val concatenado ="El valor de la palabra 01 es : ${palabra01.length}"
-    println(concatenado)
-
-    val concatenado11 ="El valor de la palabra 01 es : $number"
-    println(concatenado11)
-
-    val concatenado33 ="El valor de la palabra 01 es : ${palabra01.trim()}"//trim saca los espacios en blanco de inio y final
-    println(concatenado33)
+//    val palabra01 ="Hola que tal"
+//    val number =10
+//    val concatenado ="El valor de la palabra 01 es : ${palabra01.length}"
+//    println(concatenado)
+//
+//    val concatenado11 ="El valor de la palabra 01 es : $number"
+//    println(concatenado11)
+//
+//    val concatenado33 ="El valor de la palabra 01 es : ${palabra01.trim()}"//trim saca los espacios en blanco de inio y final
+//    println(concatenado33)
 
    //replace para reemplaza
 }
