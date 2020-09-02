@@ -58,7 +58,7 @@ var bb1:Boolean
     println(ff)
 imprimiendoParametros("hola","chao")
 
-    devolve
+    //devolve
 
 }
 
@@ -68,9 +68,9 @@ fun imprimiendoParametros(param1:String,param2:String){
     println(valor)
     return
 
-fun devolveriva ():Double{//faltó terminar esto
+/*fun devolveriva ():Double{//faltó terminar esto
 
     return (19%)
-}
+}*/
 
 }
